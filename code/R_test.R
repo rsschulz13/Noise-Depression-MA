@@ -1,0 +1,7 @@
+library(readxl)
+dir()
+getwd()
+data50<-read_excel("HNR+Acoustic Exposition_Prokscha.xlsx")
+warnings()
+summary(data50)
+str(data50)
