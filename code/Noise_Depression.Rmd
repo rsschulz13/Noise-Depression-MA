@@ -1,0 +1,19 @@
+---
+title: "Noise_Depression_MA"
+author: "Ricarda Schulz"
+date: "2026-02-26"
+output: html_document
+---
+
+# Einlesen der Daten
+
+```{r}
+#Einlesen der Daten
+Noise_Data <- readxl::read_excel("../../data/HNR_Acoustic_Exposition.xlsx") 
+```
+
+```{r}
+warnings()
+summary(data50)
+str(data50)
+```
